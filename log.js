@@ -1,0 +1,16 @@
+document.querySelector(".check1").addEventListener("change",function(){
+    if(document.querySelector(".check1").checked){
+        document.querySelector(".new1").style.display="flex";
+    }
+    else{
+        document.querySelector(".new1").style.display="none";
+    }
+});
+document.querySelector(".check2").addEventListener("change",function(){
+    if(document.querySelector(".check2").checked){
+        document.querySelector(".new2").style.display="flex";
+    }
+    else{
+        document.querySelector(".new2").style.display="none";
+    }
+});

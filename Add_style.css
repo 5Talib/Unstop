@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.circle{
+    height: 105px;
+    width: 105px;
+    background-color: #DFDFDF;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    position: absolute;
+}
+.num1{
+    cursor: pointer;
+    width: 80px;
+    height: 75px;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    /* border: 1px solid; */
+    text-align: center;
+    font-weight: 300;
+    font-size: 48px;
+    padding-top: 8px;
+}
+.tag{
+    position: relative;
+    width: 190px;
+    height: 33px;
+    top: 125px;
+    /* left: 69px; */
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+
+}
+.tab1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 80vw;
+    /* background-color: aqua; */
+    margin: auto;
+    height: 180px;
+    gap: 0;
+    justify-content: center;
+    padding-left: 180px;
+    padding-top: 26px;
+}
+.line{
+    background-color: #000000;
+    height: 3px;
+    width: 247px;
+    position: relative;
+    top: 51px;
+    right: 41px;
+    z-index: 10;
+}
+/* .line2{
+    background-color: #3178A0;
+    border-color: #3178A0;
+} */
+.line3{
+    background-color: #3178A0;
+    border-color: #3178A0;
+}
+.tab4 > .circle{
+    border-color: #3178A0;
+    background-color: white;
+}
+.tab4 > .circle > .num1 a{
+    color: #3178A0;
+}
+.tab4>.tag{
+    color: #3178A0;
+}
+.tab2{
+    position: relative;
+    right: 81px;
+}
+.line2{
+    position: relative;
+    right: 122px;
+}
+.tab3{
+    position: relative;
+    right: 162px;
+}
+.line3{
+    position: relative;
+    right: 202px;
+}
+.tab4{
+    position: relative;
+    right: 243px;
+}
+
+
+.h1{
+    font-size: 24px;
+    font-weight: 300;
+}
+.head1{
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+.head2{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    margin-left: 45px;
+    margin-bottom: 35px;
+}
+.h3{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.element{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  label{
+    font-size: 14px;
+    font-weight: 300;
+    /* color: #949494; */
+  }
+  input{
+    height: 59px;
+    width: 335px;
+    border-radius: 4px;
+    border: 1px solid #949494;
+    padding-left: 12px;
+  }
+
+
+  .row1{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    /* margin-left: 62px; */
+  }
+  .info{
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  /* The switch */
+/* .switch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .switch-label {
+    /* margin-bottom: 5px; */
+    font-size: 13px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+  }
+
+  .switch input {
+    display: none;
+  }
+
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ed8f8f;
+    transition: background-color 0.4s;
+    border-radius: 20px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 27px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgb(252, 2, 2);
+    transition: transform 0.4s;
+    border-radius: 50%;
+  }
+
+  input:checked + .slider {
+    background-color: #4CAF50; /* Green background color for "Yes" */
+  }
+
+  input:checked + .slider:before {
+    background-color: white;
+    transform: translateX(35px);
+  }
+
+  .head3{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 194px;
+    margin-bottom: 25px;
+  }
+
+  .toggleSwitch{
+    margin-left: 20px;
+    /* margin-top: 10px; */
+  }
+  .point{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  .subpoint{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .ques{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .p1{
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .virtual-logistics{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+  .pointlast{
+    padding-left: 52px;
+  }
+  .court1{
+    gap: 137px;
+  }
+  .court2{
+    gap: 105px;
+  }
+  .court3{
+    gap: 143px;
+  }
+  .court4{
+    gap: 246px;
+  }
+  .requests input{
+    /* height: 59px; */
+    width: 530px;
+  }
+  .new1{
+    display: none;
+  }
+  .new2{
+    display: none;
+  }
